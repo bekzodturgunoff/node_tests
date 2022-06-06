@@ -1,0 +1,14 @@
+{
+  "name": "learn_node",
+  "version": "1.0.0",
+  "description": "This is a intro to a node project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bekzod",
+  "license": "ISC",
+  "dependencies": {
+    "marveljs": "^0.0.2"
+  }
+}
