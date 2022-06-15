@@ -31,3 +31,13 @@ async function example() {
   }
 }
 example();
+
+const myURL = new URl("https://example.org");
+console.log(myURL.hash);
+
+//Prints #bar
+
+myURL.hash = "baz";
+console.log(myURL.href);
+
+// Prints https://example.org/foo#baz
